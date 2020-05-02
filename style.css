@@ -1,0 +1,221 @@
+ol {
+  list-style: none;
+}
+
+ol li {
+  padding: 20px;
+  display: inline-block;
+  color: 0;
+}
+
+#tabla {
+  color: black;
+  border-color: grey;
+  border-top: 5px;
+  border-bottom: 5px;
+  border-right: 5px;
+  border-left: 5px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.fondofuerte {
+  background-image: -webkit-gradient(linear, left top, right top, from(black), color-stop(grey), to(white));
+  background-image: linear-gradient(to right, black, grey, white);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#menu {
+  text-align: right;
+  word-spacing: 12px;
+  background-image: -webkit-gradient(linear, left top, right top, from(black), color-stop(grey), to(white));
+  background-image: linear-gradient(to right, black, grey, white);
+  padding: 0;
+}
+
+#menu li {
+  display: inline-block;
+  position: relative;
+}
+
+.submenu {
+  position: absolute;
+  display: none;
+  background-color: grey;
+}
+
+.submenu li a {
+  color: black;
+  text-align: center;
+}
+
+.submenu li {
+  display: block;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+.negro {
+  color: black;
+}
+
+.titulo {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  line-height: 30px;
+  background-image: -webkit-gradient(linear, left top, right top, from(black), color-stop(grey), to(white));
+  background-image: linear-gradient(to right, black, grey, white);
+  text-align: left;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.comentarios {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1300px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.cara {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 300px;
+  height: 325px;
+}
+
+.spa {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 325px;
+}
+
+.unas {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 300px;
+  height: 325px;
+}
+
+#sobrenosotros {
+  font-style: italic;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -ms-grid-columns: 700px 100px 100px;
+      grid-template-columns: 700px 100px 100px;
+  -ms-grid-rows: 300px 100px;
+      grid-template-rows: 300px 100px;
+}
+
+.imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.imagenes .imagen1 {
+  background-image: -webkit-gradient(linear, left top, right top, from(black), color-stop(grey), to(white));
+  background-image: linear-gradient(to right, black, grey, white);
+  -webkit-transform: translate(10px, 40px);
+          transform: translate(10px, 40px);
+  width: 300px;
+  height: 325px;
+}
+
+.imagenes .imagen2 {
+  height: 325px;
+  width: 300px;
+}
+
+.texto {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+.email:focus {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+#contacto #contactanos {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.edad {
+  text-decoration: underline;
+}
+
+.email {
+  text-decoration: underline;
+}
+
+.sucursal {
+  text-decoration: underline;
+}
+
+.mensaje {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
